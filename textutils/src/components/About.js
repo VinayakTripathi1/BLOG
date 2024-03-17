@@ -10,10 +10,7 @@ export default function About() {
     }
     const [bgColor, setBgColor] = useState(false);
     const [btnName, setBtnName] = useState(false);
-    // let myStyle = {
-    //     backgroundColor: bgColor ? "black" : "white", 
-    //     color: bgColor ? "white" : "black"}
-    // }
+    
     return (
         <div className='container' style={{ backgroundColor: bgColor ? "black" : "white", color: bgColor ? "white" : "black", border: bgColor ? "1px solid white" : "none"}}>
             <h1 className='my-3'>About Us</h1>
